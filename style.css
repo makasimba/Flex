@@ -1,0 +1,338 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BANNER */
+
+.banner {
+    background-image: url(img/bg-masthead.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1 {
+    font-size: 60px;
+    color: rgb(32, 37, 41);
+}
+
+.banner p {
+    margin-top: -42px;
+    font-size: 22px;
+    color: rgb(32, 37, 41);
+}
+
+.banner button {
+    background-color: rgb(0, 128, 163);
+    color: white;
+    height: 60px;
+    width: 160px;
+    border-radius: 6px;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 32px;
+    font-size: 18px;
+}
+
+/* BANNER */
+
+/* PORTFOLIO */
+
+.portfolio-services .portfolio {
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 64px;
+}
+/* PORTFOLIO */
+
+.portfolio-services .services {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    background-color: rgb(0, 128, 163);
+    align-items: center;
+    color: white;
+}
+
+.portfolio-services .services h6 {
+    margin-top: 100px;
+}
+
+.portfolio-services .services h2 {
+    margin-top: -4px;
+    padding-bottom: 20px;
+}
+
+.portfolio-services .services .yellow-highlight {
+    color: rgb(242, 187, 0);
+}
+
+.portfolio-services .portfolio h2 {
+    font-size: 32px;
+    color: rgb(32, 37, 41);
+}
+
+.portfolio-services .portfolio p {
+    font-size: 19.5px;
+    margin-top: -14px;
+    color: gray;
+}
+
+.portfolio-services .portfolio button {
+    height: 60px;
+    width: 160px;
+    background-color:rgb(51, 58, 66);
+    border-radius: 5px;
+    margin-top: 16px;
+    color: white;
+    font-size: 18px;
+}
+
+/* portfolio-services */
+/* WHAT WE OFFER */
+
+.portfolio-services .services h2 {
+    font-size: 36px;
+}
+
+.portfolio-services .services .container p {
+    font-size: 10px;
+}
+
+/* ITEM CONTAINER */
+.portfolio-services .services .container {
+    display: flex;
+}
+
+.portfolio-services .services .container .item {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 48px;
+}
+
+.portfolio-services .services .container .item h6 {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.portfolio-services .services .container .item p {
+    margin-top: -30px;
+    color: rgb(185, 204, 200);
+}
+
+.portfolio-services .services .container .item .services-images {
+    display: flex;
+    background-color: white;
+    border-radius: 200px;
+    height: 90px;
+    width: 90px;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-services .services .item .services-images img {
+    height: 50%;
+}
+/* WHAT WE OFFER */
+/* PORTFOLIO */
+
+/* WELCOME */
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/bg-callout.jpg);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome h2 {
+    font-size: 60px;
+    color: rgb(32, 37, 41);
+}
+
+.welcome button {
+    background-color: rgb(0, 128, 163);
+    height: 60px;
+    width: 160px;
+    border-style: solid;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+/* WELCOME */
+
+/* PROJECTS */
+
+.projects .text {
+    margin-top: 80px;
+}
+
+.projects .text h6 {
+    padding-left: 226px;
+    font-size: 11px;
+}
+
+.projects .text .yellow-highlight {
+    color: rgb(242, 187, 0);
+}
+
+.projects .text h2 {
+    font-size: 44px;
+    margin-top: 0px;
+    color: rgb(51, 58, 65);
+}
+
+.projects .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects .project-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-right: 150px;
+    padding-left: 150px;
+    margin-bottom: 120px;
+}
+
+.projects .project-images .stationary, .ice-cream, .workspace, .strawberries,  .inside-text {
+    display: flex;
+    color: rgb(255, 230, 209);
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 40px;
+}
+
+.projects h6 {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-right: 240px;
+}
+
+.projects .stationary {
+    background-image: url(img/portfolio-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projects .ice-cream {
+    background-image: url(img/portfolio-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projects .strawberries {
+    background-image: url(img/portfolio-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projects .workspace {
+    background-image: url(img/portfolio-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projects .stationary, .ice-cream, .strawberries, .workspace {
+    height: 480px;
+    width: 480px;
+}
+
+.project-images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+/* PROJECTS */
+
+/* FOOTER */
+
+.footer .upper {
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 128, 163);
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.footer .upper button {
+    height: 60px;
+    width: 160px;
+    border-radius: 5px;
+    border: none;
+}
+
+.footer .upper .click-me-button {
+    background-color: rgb(248, 249, 250);
+    color:rgb(32, 37, 41);
+}
+
+.footer .upper .look-at-me-button {
+    background-color: rgb(51, 58, 65);
+    color: white;
+}
+
+/* FOOTER */
+
+.footer .map {
+    background-image: url(img/map.jpeg);
+    height: 80vh;
+    background-size: cover;
+}
+
+.footer .copyright {
+    height: 30px;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 10px;
+    color:rgb(32, 37, 41);
+}
+
+/* ICONS */
+
+.footer .icons {
+    display: flex;
+    justify-content: center;
+    padding-right: 20px;
+
+}
+
+.footer .icons .icon {
+    display: flex;
+    height: 42px;
+    width: 42px;
+    background-color:rgb(0, 128, 163);
+    border-radius: 120px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.footer .icons .icon img {
+    height: 18px;
+    width: 18px;
+}
